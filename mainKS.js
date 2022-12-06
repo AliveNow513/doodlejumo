@@ -178,7 +178,7 @@ var Doodle;
         } else 0 == t && (this.player.body.velocity.y = -2080)
     },
     distanceBtwPlatforms: function(t) {
-        if (null == t)(e = 25 + Math.random() * ((1 + this.score) / 150)) > 90 && (e = 90), 2 == this.precedingPlatform.type && e > 50 && (e = 50);
+        if (null == t)(e = 25 + Math.random() * ((1 + this.score) / 15)) > 90 && (e = 90), 2 == this.precedingPlatform.type && e > 50 && (e = 50);
         else var e = 0;
         if (-1 != this.precedingPlatform.hasBonusObject) {
             e += 15;
